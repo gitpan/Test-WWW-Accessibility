@@ -1,0 +1,15 @@
+# http://module-build.sourceforge.net/META-spec.html
+#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
+name:         Test-WWW-Accessibility
+version:      0.10_01
+version_from: lib/Accessibility.pm
+installdirs:  site
+requires:
+    HTML::Parser:                  0
+    HTML::Tagset:                  0
+    Test::Builder:                 0
+    Test::Builder::Tester:         0
+    URI:                           0
+
+distribution_type: module
+generated_by: ExtUtils::MakeMaker version 6.17

@@ -1,0 +1,6 @@
+# $Id: test_manifest,v 1.1.1.1 2004/10/12 13:11:55 comdog Exp $
+load.t
+pod.t
+prereq.t
+_get_img_tags.t
+img_tags_have_alt_ok.t
