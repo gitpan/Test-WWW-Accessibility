@@ -1,11 +1,11 @@
-# $Id: Accessibility.pm,v 1.2 2004/10/12 15:29:46 comdog Exp $
+# $Id: Accessibility.pm,v 1.3 2005/03/08 23:23:37 comdog Exp $
 package Test::WWW::Accessibility;
 use strict;
 
 use base qw( Exporter );
 use vars qw( $VERSION @EXPORT_OK @EXPORT );
 
-$VERSION = '0.10_01';
+$VERSION = '0.11_01';
 @EXPORT  = qw( img_tags_have_alt_ok );
 
 use Test::Builder;
@@ -125,7 +125,7 @@ sub no_click_here_ok
 	{
 	}
 
-=item no_click_here_ok( HTML )
+=item unique_link_text_ok( HTML )
 
 Link text for each URL is unique.
 
